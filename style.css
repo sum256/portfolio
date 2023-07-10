@@ -4,11 +4,35 @@
     box-sizing: border-box;
   }
 
-  .header div{
-    padding: auto 20px;
+  /*header*/
+
+  .header {
+    position: relative;
+  }
+  .header .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .header .imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
   }
   .header div img{
-    
-    display: flex;
-    justify-content: baseline;
+    height: 100px;
+    width: 100px;
   }
+
+  /*mecontent*/
+
+
+
+
+  /*maya*/
+
+
+
+  /*c++s*/
