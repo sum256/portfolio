@@ -27,7 +27,30 @@
   }
 
   /*mecontent*/
-
+  .mecontent{
+    display: flex;
+    justify-content: center;
+    margin: 40px 80px;
+  }
+  .mecontent .back {
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .mecontent .back .split-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .mecontent .back div img {
+    margin: 100px 20px;
+    height: 200px;
+    width: 200px;
+  }
+  .mecontent .back div p,h3 {
+    margin-right: 240px;
+    text-align: center;
+  }
 
 
 
