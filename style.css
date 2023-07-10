@@ -4,4 +4,11 @@
     box-sizing: border-box;
   }
 
-  
+  .header div{
+    padding: auto 20px;
+  }
+  .header div img{
+    
+    display: flex;
+    justify-content: baseline;
+  }
