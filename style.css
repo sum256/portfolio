@@ -5,15 +5,10 @@
   }
 
   /*header*/
-
-  .header {
-    position: relative;
-  }
   .header .back {
-    position: absolute;
-    height: 100%;
+    height: 800px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0,0,0, 0.3);
   }
   .header .imgs{
     display: flex;
@@ -37,6 +32,7 @@
     width: 800px;
     background-color: white;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
   }
   .mecontent .back .split-content{
     display: flex;
@@ -55,7 +51,14 @@
 
 
   /*maya*/
-
+.maya h2 {
+  margin: 80px auto;
+  height: 200px;
+  width: auto;
+  text-align: center;
+  line-height: 190px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
 
   /*c++s*/
