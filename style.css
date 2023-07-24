@@ -6,9 +6,39 @@
 
   /*header*/
   .header .back {
+    position: relative;
     height: 800px;
     width: 100%;
     background-color: rgba(0,0,0, 0.3);
+  }
+  .vertical-line,
+.horizontal-line {
+  position: absolute;
+  background-color: #000;
+}
+  .header .back .vertical-line {
+  position: absolute;
+  left: 30%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  /* 縦線の色を設定 */
+  background-color: #000;
+}
+.horizontal-line {
+  left: 0;
+  bottom: 30%;
+  transform: translateY(50%);
+  width: 100%;
+  height: 2px;
+}
+
+  .header .back h2{
+    position: absolute;
+    top: 10%;
+    padding: 20% 30%;
+    font-size: 80px;
   }
   .header .imgs{
     display: flex;
@@ -58,6 +88,14 @@
   text-align: center;
   line-height: 190px;
   background-color: rgba(0, 0, 0, 0.2);
+}
+.maya .imgcontent{
+  background-color: aliceblue;
+
+}
+.maya .maya_sub{
+  display: flex;
+  justify-content: center;
 }
 
 
