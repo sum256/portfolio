@@ -148,13 +148,14 @@
   display: flex;
   justify-content: space-between; /* 要素間の間隔を一定に保つ */
   padding: 0 20px; /* 左右の要素間の間隔を調整 */
-  height: 100vh; /* 親要素の高さを画面の高さに設定 */
+  height: 60vh; /* 親要素の高さを画面の高さに設定 */
   background-color: #f0f0f0; /* 背景色を設定 */
 }
 .maya .maya_sub div{
   text-align: center;
   border: 2px solid #000; /* 画像を実線で囲む */
   padding: 10px; /* 囲いの内側に余白を設定 */
+  margin-bottom: 40px;
 }
 .maya .maya_sub div img{
   max-width: 100%;
@@ -162,7 +163,7 @@
 }
 .maya .maya_sub div p{
   margin-top: 10px; /* 説明文と画像の間に余白を設定 */
-  border: 2px solid #000; /* 画像を実線で囲む */
+  border-top: 2px dashed #000; /* 画像を実線で囲む */
   padding-top: 10px; /* 説明文の上部に余白を設定 */
 }
   /*c++s*/
