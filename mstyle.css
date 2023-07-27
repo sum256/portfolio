@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.video-container {
+    max-width: 800px; /* 動画の最大幅を指定 */
+    margin: 0 auto; /* ページ中央に配置 */
+}
+/* レスポンシブ対応：動画が幅いっぱいに表示されるようにする */
+video {
+    width: 100%;
+    height: auto;
+}
