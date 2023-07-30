@@ -20,4 +20,54 @@ section h2 {
     line-height: 190px;
     background-color: rgba(0, 0, 0, 0.2);
 }
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 親要素の高さを画面の高さに設定 */
+    background-color: #f0f0f0; /* 背景色を設定 */
+  }
   
+  .image-container {
+    text-align: center;
+    border: 2px solid #000; /* 画像を実線で囲む */
+    padding: 10px; /* 囲いの内側に余白を設定 */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    border: 2px solid #000; /* 画像を実線で囲む */
+    padding: 10px; /* 囲いの内側に余白を設定 */
+  }
+  
+  .description {
+    margin-top: 10px; /* 説明文と画像の間に余白を設定 */
+    border-top: 2px dashed #000; /* 破線の境界線を追加 */
+    padding-top: 10px; /* 説明文の上部に余白を設定 */
+  }
+  .button{
+    background-color:#f0f0f0;
+    position: relative;
+    padding: 4% 0;
+  }
+  .backpage{
+    position: absolute; /* 固定位置に配置 */
+    bottom: 10%; /* 画面下端から垂直方向に10%の位置に配置 */
+    right: 10%; /* 画面右から水平方向に10%の位置に配置 */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* 背景色を灰色に設定 */
+    border: 2px solid black; /* 黒色の四角で囲む */
+    color: black; /* テキストカラーを黒に設定 */
+    text-decoration: none; /* テキストの下線をなくす */
+    font-size: 16px; /* フォントサイズを調整 */
+    font-weight: bold; /* フォントを太字に設定 */
+  }
+  .backpage:hover {
+    color: white; /* テキストカラーを白に変更 */
+    background-color: black; /* 背景色を黒に変更 */
+}
+.backpage:visited {
+    color: black; /* テキストカラーを通常の色に戻す（リンクを訪れた後も同じ色を保つ） */
+    background-color: #f0f0f0; /* 背景色を通常の色に戻す（リンクを訪れた後も同じ色を保つ） */
+}
