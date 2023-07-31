@@ -161,7 +161,7 @@
   max-width: 100%;
   border: 2px solid #000; /* 画像に線を追加 */
 }
-.maya .maya_sub div p{
+.maya .maya_sub div h4{
   margin-top: 10px; /* 説明文と画像の間に余白を設定 */
   border-top: 2px dashed #000; /* 画像を実線で囲む */
   padding-top: 10px; /* 説明文の上部に余白を設定 */
