@@ -166,7 +166,7 @@
   border-top: 2px dashed #000; /* 画像を実線で囲む */
   padding-top: 10px; /* 説明文の上部に余白を設定 */
 }
-h3{
+.hei{
   display: flex;
   justify-content: center;
   padding: 0 0 6% 0;
